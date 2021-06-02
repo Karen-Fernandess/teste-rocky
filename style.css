@@ -118,10 +118,10 @@ html {
 
 .caixa {
     width: 40rem;
-    margin: 4.4rem;
+    margin: 2rem 4.4rem;
     padding: 0 20px 20px 20px;
     background-color: white;
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 8px 6px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
 .sobre p {
@@ -137,7 +137,8 @@ html {
 .service-float {
     display: flex;
     align-items: center;
-    justify-content: space-around;     
+    justify-content: space-between;     
+    padding: 0 2rem;
     
 }
 
@@ -154,9 +155,7 @@ html {
     background-image: url(img-web/s3\ ft1.png);
     background-repeat: no-repeat;
     max-width: 350px;
-    background-size: contain;
-    
-    /*float: left;*/
+    background-size: contain;     
 }
 
 .service h2 {
@@ -181,11 +180,6 @@ html {
     background-repeat: no-repeat;
     max-width: 350px;
     background-size: contain;
-    
-
-
-
-   /*float: left;*/
 }
 
 .midia p {
@@ -208,9 +202,6 @@ html {
     background-repeat: no-repeat;
     max-width: 350px;
     background-size: contain;
-    
-    
-   /*float: left;*/
 }
 
 .tecnologia p {
@@ -232,12 +223,30 @@ html {
 /* 
     Formatação diferenciais 
 ------------------------ */
+.box {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 2rem;
+    height: 43rem;
+}
+
+.box div {
+    position: relative;
+}
+
+.box div p {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem 2rem;
+}
 
 .differentials-float {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    
+    justify-content: space-between;
+    padding: 0 2rem;    
 }
 
 .conteudo1 {
@@ -245,14 +254,7 @@ html {
     background-repeat: no-repeat;    
     width: 100%;
     height: 100%;
-    background-size: contain;
-}
-
-.conteudo1 p {
-    color: white;
-    font-size: 0.75rem;
-    text-align: center;    
-    padding: 2.2rem;
+    
 }
 
 .conteudo2 {
@@ -260,30 +262,16 @@ html {
     background-repeat: no-repeat;    
     width: 100%;
     height: 100%;
-    background-size: contain;
 }
 
-.conteudo2 p {
-    color: white;
-    font-size: 0.75rem;
-    text-align: center;    
-    padding: 2.2rem;
-}
 
 .conteudo3 {
     background-image: url(img-web/s4\ ft3.png);
     background-repeat: no-repeat;  
     width: 100%;
-    height: 100%;
-    background-size: contain;  
+    height: 100%;  
 }
 
-.conteudo3 p {
-    color: white;
-    font-size: 0.75rem;
-    text-align: center;    
-    padding: 2.2rem;
-}
 
 /*
     Formatação final
@@ -318,7 +306,6 @@ html {
 }
 
 .logo-contato {
-    /*margin-left: 5rem; */
     padding-top: 2.5rem;  
 }
 
@@ -332,7 +319,6 @@ html {
 }
 
 .e-mail-tel {
-    /*margin-left: 5rem; */
     padding-top: 1.5rem;  
     display: flex;
     align-items: baseline;
@@ -351,7 +337,6 @@ html {
 }
 
 .adress {
-    /*margin-left: 5rem; */
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;  
     display: flex;
@@ -370,7 +355,6 @@ html {
     font-weight: 600;
     padding: 0.65rem 0.65rem 0.65rem 0;
     text-align: justify;
-    /*margin-left: 4.5rem;*/
 }
 
 /*
